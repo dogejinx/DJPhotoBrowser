@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		762610931E514E3A002A97A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762610921E514E3A002A97A1 /* AppDelegate.swift */; };
+		762610951E514E3B002A97A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762610941E514E3B002A97A1 /* ViewController.swift */; };
+		762610981E514E3C002A97A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762610961E514E3C002A97A1 /* Main.storyboard */; };
+		7626109A1E514E3D002A97A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762610991E514E3D002A97A1 /* Assets.xcassets */; };
+		7626109D1E514E3F002A97A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7626109B1E514E3F002A97A1 /* LaunchScreen.storyboard */; };
+		762610A81E514E4B002A97A1 /* DJPhotoBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762610A71E514E4B002A97A1 /* DJPhotoBrowserTests.swift */; };
+		762610B31E514E4B002A97A1 /* DJPhotoBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762610B21E514E4B002A97A1 /* DJPhotoBrowserUITests.swift */; };
+		76A0B7F61E52E11700A11F02 /* DJParallaxScrollingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A0B7F41E52E11700A11F02 /* DJParallaxScrollingTableViewCell.swift */; };
+		76A0B7F71E52E11700A11F02 /* DJParallaxScrollingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A0B7F51E52E11700A11F02 /* DJParallaxScrollingTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		762610A41E514E4A002A97A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762610871E514E38002A97A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7626108E1E514E39002A97A1;
+			remoteInfo = DJPhotoBrowser;
+		};
+		762610AF1E514E4B002A97A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762610871E514E38002A97A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7626108E1E514E39002A97A1;
+			remoteInfo = DJPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7626108F1E514E39002A97A1 /* DJPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		762610921E514E3A002A97A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		762610941E514E3B002A97A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		762610971E514E3C002A97A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		762610991E514E3D002A97A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7626109C1E514E3F002A97A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7626109E1E514E40002A97A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762610A31E514E4A002A97A1 /* DJPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		762610A71E514E4B002A97A1 /* DJPhotoBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJPhotoBrowserTests.swift; sourceTree = "<group>"; };
+		762610A91E514E4B002A97A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762610AE1E514E4B002A97A1 /* DJPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		762610B21E514E4B002A97A1 /* DJPhotoBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJPhotoBrowserUITests.swift; sourceTree = "<group>"; };
+		762610B41E514E4B002A97A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A0B7F41E52E11700A11F02 /* DJParallaxScrollingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJParallaxScrollingTableViewCell.swift; sourceTree = "<group>"; };
+		76A0B7F51E52E11700A11F02 /* DJParallaxScrollingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJParallaxScrollingTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7626108C1E514E39002A97A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762610A01E514E4A002A97A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762610AB1E514E4B002A97A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		762610861E514E37002A97A1 = {
+			isa = PBXGroup;
+			children = (
+				762610911E514E39002A97A1 /* DJPhotoBrowser */,
+				762610A61E514E4A002A97A1 /* DJPhotoBrowserTests */,
+				762610B11E514E4B002A97A1 /* DJPhotoBrowserUITests */,
+				762610901E514E39002A97A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		762610901E514E39002A97A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7626108F1E514E39002A97A1 /* DJPhotoBrowser.app */,
+				762610A31E514E4A002A97A1 /* DJPhotoBrowserTests.xctest */,
+				762610AE1E514E4B002A97A1 /* DJPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		762610911E514E39002A97A1 /* DJPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				762610921E514E3A002A97A1 /* AppDelegate.swift */,
+				762610941E514E3B002A97A1 /* ViewController.swift */,
+				76A0B7F41E52E11700A11F02 /* DJParallaxScrollingTableViewCell.swift */,
+				76A0B7F51E52E11700A11F02 /* DJParallaxScrollingTableViewCell.xib */,
+				762610961E514E3C002A97A1 /* Main.storyboard */,
+				762610991E514E3D002A97A1 /* Assets.xcassets */,
+				7626109B1E514E3F002A97A1 /* LaunchScreen.storyboard */,
+				7626109E1E514E40002A97A1 /* Info.plist */,
+			);
+			path = DJPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		762610A61E514E4A002A97A1 /* DJPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				762610A71E514E4B002A97A1 /* DJPhotoBrowserTests.swift */,
+				762610A91E514E4B002A97A1 /* Info.plist */,
+			);
+			path = DJPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		762610B11E514E4B002A97A1 /* DJPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				762610B21E514E4B002A97A1 /* DJPhotoBrowserUITests.swift */,
+				762610B41E514E4B002A97A1 /* Info.plist */,
+			);
+			path = DJPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7626108E1E514E39002A97A1 /* DJPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762610B71E514E4B002A97A1 /* Build configuration list for PBXNativeTarget "DJPhotoBrowser" */;
+			buildPhases = (
+				7626108B1E514E39002A97A1 /* Sources */,
+				7626108C1E514E39002A97A1 /* Frameworks */,
+				7626108D1E514E39002A97A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJPhotoBrowser;
+			productName = DJPhotoBrowser;
+			productReference = 7626108F1E514E39002A97A1 /* DJPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		762610A21E514E4A002A97A1 /* DJPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762610BA1E514E4B002A97A1 /* Build configuration list for PBXNativeTarget "DJPhotoBrowserTests" */;
+			buildPhases = (
+				7626109F1E514E4A002A97A1 /* Sources */,
+				762610A01E514E4A002A97A1 /* Frameworks */,
+				762610A11E514E4A002A97A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762610A51E514E4A002A97A1 /* PBXTargetDependency */,
+			);
+			name = DJPhotoBrowserTests;
+			productName = DJPhotoBrowserTests;
+			productReference = 762610A31E514E4A002A97A1 /* DJPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		762610AD1E514E4B002A97A1 /* DJPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762610BD1E514E4B002A97A1 /* Build configuration list for PBXNativeTarget "DJPhotoBrowserUITests" */;
+			buildPhases = (
+				762610AA1E514E4B002A97A1 /* Sources */,
+				762610AB1E514E4B002A97A1 /* Frameworks */,
+				762610AC1E514E4B002A97A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762610B01E514E4B002A97A1 /* PBXTargetDependency */,
+			);
+			name = DJPhotoBrowserUITests;
+			productName = DJPhotoBrowserUITests;
+			productReference = 762610AE1E514E4B002A97A1 /* DJPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		762610871E514E38002A97A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DogeJinx;
+				TargetAttributes = {
+					7626108E1E514E39002A97A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z85NQV9DT5;
+						ProvisioningStyle = Automatic;
+					};
+					762610A21E514E4A002A97A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z85NQV9DT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7626108E1E514E39002A97A1;
+					};
+					762610AD1E514E4B002A97A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z85NQV9DT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7626108E1E514E39002A97A1;
+					};
+				};
+			};
+			buildConfigurationList = 7626108A1E514E38002A97A1 /* Build configuration list for PBXProject "DJPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 762610861E514E37002A97A1;
+			productRefGroup = 762610901E514E39002A97A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7626108E1E514E39002A97A1 /* DJPhotoBrowser */,
+				762610A21E514E4A002A97A1 /* DJPhotoBrowserTests */,
+				762610AD1E514E4B002A97A1 /* DJPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7626108D1E514E39002A97A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A0B7F71E52E11700A11F02 /* DJParallaxScrollingTableViewCell.xib in Resources */,
+				7626109D1E514E3F002A97A1 /* LaunchScreen.storyboard in Resources */,
+				7626109A1E514E3D002A97A1 /* Assets.xcassets in Resources */,
+				762610981E514E3C002A97A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762610A11E514E4A002A97A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762610AC1E514E4B002A97A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7626108B1E514E39002A97A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762610951E514E3B002A97A1 /* ViewController.swift in Sources */,
+				762610931E514E3A002A97A1 /* AppDelegate.swift in Sources */,
+				76A0B7F61E52E11700A11F02 /* DJParallaxScrollingTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7626109F1E514E4A002A97A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762610A81E514E4B002A97A1 /* DJPhotoBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762610AA1E514E4B002A97A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762610B31E514E4B002A97A1 /* DJPhotoBrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		762610A51E514E4A002A97A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7626108E1E514E39002A97A1 /* DJPhotoBrowser */;
+			targetProxy = 762610A41E514E4A002A97A1 /* PBXContainerItemProxy */;
+		};
+		762610B01E514E4B002A97A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7626108E1E514E39002A97A1 /* DJPhotoBrowser */;
+			targetProxy = 762610AF1E514E4B002A97A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		762610961E514E3C002A97A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				762610971E514E3C002A97A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7626109B1E514E3F002A97A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7626109C1E514E3F002A97A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		762610B51E514E4B002A97A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		762610B61E514E4B002A97A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		762610B81E514E4B002A97A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z85NQV9DT5;
+				INFOPLIST_FILE = DJPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DogeJinx.DJPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		762610B91E514E4B002A97A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z85NQV9DT5;
+				INFOPLIST_FILE = DJPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DogeJinx.DJPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		762610BB1E514E4B002A97A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z85NQV9DT5;
+				INFOPLIST_FILE = DJPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DogeJinx.DJPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJPhotoBrowser.app/DJPhotoBrowser";
+			};
+			name = Debug;
+		};
+		762610BC1E514E4B002A97A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z85NQV9DT5;
+				INFOPLIST_FILE = DJPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DogeJinx.DJPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJPhotoBrowser.app/DJPhotoBrowser";
+			};
+			name = Release;
+		};
+		762610BE1E514E4B002A97A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z85NQV9DT5;
+				INFOPLIST_FILE = DJPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DogeJinx.DJPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DJPhotoBrowser;
+			};
+			name = Debug;
+		};
+		762610BF1E514E4B002A97A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z85NQV9DT5;
+				INFOPLIST_FILE = DJPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DogeJinx.DJPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DJPhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7626108A1E514E38002A97A1 /* Build configuration list for PBXProject "DJPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762610B51E514E4B002A97A1 /* Debug */,
+				762610B61E514E4B002A97A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762610B71E514E4B002A97A1 /* Build configuration list for PBXNativeTarget "DJPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762610B81E514E4B002A97A1 /* Debug */,
+				762610B91E514E4B002A97A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762610BA1E514E4B002A97A1 /* Build configuration list for PBXNativeTarget "DJPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762610BB1E514E4B002A97A1 /* Debug */,
+				762610BC1E514E4B002A97A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762610BD1E514E4B002A97A1 /* Build configuration list for PBXNativeTarget "DJPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762610BE1E514E4B002A97A1 /* Debug */,
+				762610BF1E514E4B002A97A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 762610871E514E38002A97A1 /* Project object */;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DJPhotoBrowser.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7626108E1E514E39002A97A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>762610A21E514E4A002A97A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>762610AD1E514E4B002A97A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
