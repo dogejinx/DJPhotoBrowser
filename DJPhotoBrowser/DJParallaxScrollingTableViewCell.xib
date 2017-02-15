@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -61,10 +61,10 @@
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4wj-6W-KpV" userLabel="Picture View">
                                 <rect key="frame" x="0.0" y="52" width="288" height="115"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aVU-Ez-ROi">
-                                        <rect key="frame" x="0.0" y="-29" width="288" height="173"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aVU-Ez-ROi">
+                                        <rect key="frame" x="0.0" y="-86.5" width="288" height="288"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="aVU-Ez-ROi" secondAttribute="height" multiplier="5:3" id="HoK-SK-beY"/>
+                                            <constraint firstAttribute="width" secondItem="aVU-Ez-ROi" secondAttribute="height" multiplier="1:1" id="t92-P9-Tcb"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -84,8 +84,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ka4-pM-AhH">
-                                <rect key="frame" x="0.0" y="309" width="288" height="17"/>
-                                <mutableString key="text">正文http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7</mutableString>
+                                <rect key="frame" x="0.0" y="259" width="288" height="67"/>
+                                <string key="text">正文http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7http://tse2.mm.bing.net/th?id=OIP.7zDsonwG6EP5N8zBIzn_igEsC7&amp;w=284&amp;h=177&amp;c=7&amp;qlt=90&amp;o=4&amp;dpr=1.25&amp;pid=1.7</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -93,7 +93,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wv5-2s-z76" userLabel="Bot View">
                                 <rect key="frame" x="0.0" y="334" width="288" height="36"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TqZ-PJ-1mF">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_like" translatesAutoresizingMaskIntoConstraints="NO" id="TqZ-PJ-1mF">
                                         <rect key="frame" x="0.0" y="6" width="24" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="24" id="KUS-Fd-9V0"/>
@@ -106,7 +106,7 @@
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3iH-jz-p2k">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_ comment" translatesAutoresizingMaskIntoConstraints="NO" id="3iH-jz-p2k">
                                         <rect key="frame" x="88" y="6" width="24" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="24" id="7ne-T9-zAR"/>
@@ -149,7 +149,7 @@
                             <constraint firstItem="Wv5-2s-z76" firstAttribute="top" secondItem="Ka4-pM-AhH" secondAttribute="bottom" constant="8" id="4Dq-ZX-K2u"/>
                             <constraint firstAttribute="trailing" secondItem="9mI-Zm-rmI" secondAttribute="trailing" id="7Tr-4K-tA9"/>
                             <constraint firstItem="4wj-6W-KpV" firstAttribute="leading" secondItem="U0h-ue-7VY" secondAttribute="leading" id="BAE-Mx-ZwB"/>
-                            <constraint firstItem="Ka4-pM-AhH" firstAttribute="top" secondItem="9mI-Zm-rmI" secondAttribute="bottom" priority="250" constant="113.5" id="KU4-Ic-2yI"/>
+                            <constraint firstItem="Ka4-pM-AhH" firstAttribute="top" secondItem="9mI-Zm-rmI" secondAttribute="bottom" priority="250" constant="8" id="KU4-Ic-2yI"/>
                             <constraint firstItem="4wj-6W-KpV" firstAttribute="top" secondItem="gKB-A0-xcQ" secondAttribute="bottom" constant="8" id="POj-5v-V0k"/>
                             <constraint firstAttribute="bottom" secondItem="Wv5-2s-z76" secondAttribute="bottom" id="Pf8-94-dFc"/>
                             <constraint firstAttribute="trailing" secondItem="gKB-A0-xcQ" secondAttribute="trailing" id="QbU-oT-EF6"/>
@@ -179,10 +179,16 @@
                 <outlet property="numberOfCommentLabel" destination="i7w-Nt-FfU" id="ufb-VS-dTd"/>
                 <outlet property="numberOfLikeLabel" destination="XZP-eg-fN3" id="VtR-9A-sUW"/>
                 <outlet property="numberOfRead" destination="LNe-6z-pq4" id="se4-WN-wng"/>
+                <outlet property="pictureBackground" destination="4wj-6W-KpV" id="aH8-Om-Tzj"/>
                 <outlet property="pictureImageView" destination="aVU-Ez-ROi" id="7JE-Dm-VNM"/>
+                <outlet property="pictureImageViewAspectRatio" destination="t92-P9-Tcb" id="YMq-eK-V5u"/>
                 <outlet property="titleLabel" destination="9mI-Zm-rmI" id="S7W-y8-nbs"/>
             </connections>
-            <point key="canvasLocation" x="255" y="51"/>
+            <point key="canvasLocation" x="-140" y="-174"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="icon_ comment" width="22" height="22"/>
+        <image name="icon_like" width="24" height="22"/>
+    </resources>
 </document>

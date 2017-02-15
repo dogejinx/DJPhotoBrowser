@@ -13,6 +13,7 @@ class DJParallaxScrollingTableViewCell: UITableViewCell {
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var pictureBackground: UIView!
     @IBOutlet weak var pictureImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var exampleLabel: UILabel!
@@ -20,9 +21,11 @@ class DJParallaxScrollingTableViewCell: UITableViewCell {
     @IBOutlet weak var numberOfCommentLabel: UILabel!
     @IBOutlet weak var numberOfRead: UILabel!
     
+    @IBOutlet weak var pictureImageViewAspectRatio: NSLayoutConstraint!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialization code
     }
 
