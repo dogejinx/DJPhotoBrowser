@@ -27,6 +27,8 @@ class Artist {
 
 class ViewController: UIViewController {
     
+    fileprivate let kParallaxScrollRatio: CGFloat = 0.2
+    
     var tableView: UITableView!
     var task: URLSessionDownloadTask!
     var session: URLSession!
@@ -127,6 +129,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 // Use cache
                 if let img = self.cache.object(forKey: artworkUrl as AnyObject) as? UIImage {
                     cell.pictureImageView.image = img
+                    
+                    setupPictureImageViewOriginY(cell)
                 }
             } else {
                 // 3
@@ -141,6 +145,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                                 let img:UIImage! = UIImage(data: data)
                                 updateCell.pictureImageView.image = img
                                 self.cache.setObject(img, forKey: artworkUrl as AnyObject)
+                                
+                                self.setupPictureImageViewOriginY(updateCell)
                             }
                         })
                     }
@@ -171,25 +177,28 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         for object in self.tableView.visibleCells {
-            // 取出imageView和imageView的父视图
             if let cell = object as? DJParallaxScrollingTableViewCell {
-                let rect = cell.pictureBackground.convert(cell.pictureBackground.bounds, to: nil)
-
-                let delta = (cell.pictureImageView.bounds.height - cell.pictureBackground.bounds.height)
-                var y = -(rect.origin.y)
-                y *= 0.2
+                setupPictureImageViewOriginY(cell)
+            }
+        }
+    }
+    
+    fileprivate func setupPictureImageViewOriginY(_ cell: DJParallaxScrollingTableViewCell) {
+                let pictureBgRect = cell.pictureBackground.convert(cell.pictureBackground.bounds, to: nil)
+                let pictureImageRect = cell.pictureBackground.convert(cell.pictureImageView.bounds, to: nil)
+                let delta = (pictureImageRect.size.height - pictureBgRect.size.height) / 2.0
+                var y = pictureBgRect.origin.y
+                y *= kParallaxScrollRatio
+                y -= delta
+                if y < -(2 * delta) {
+                    y = -(2 * delta)
+                }
                 if y > 0 {
                     y = 0
                 }
                 
-                if y < -delta {
-                    y = -delta
-                }
-                
                 cell.pictureImageView.frame.origin.y = y
-
-            }
-        }
     }
+    
 }
 
